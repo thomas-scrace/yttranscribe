@@ -1,0 +1,9 @@
+Make transcripts of YouTube videos using OpenAI's Whisper API.
+
+Add your OpenAI API key as an env var named OPENAI_API_KEY
+
+Example usage:
+
+    python yttranscribe.py "https://www.youtube.com/watch?v=nR5reodvpnY"
+
+URL can be either an individual video or a playlist.
